@@ -1,0 +1,33 @@
+{
+  "source": "https://api.elections.kalshi.com/trade-api/v2/markets",
+  "start_exclusive": "2026-11-13T00:00:00+00:00",
+  "end_inclusive": "2026-11-20T00:00:00+00:00",
+  "retrieved_utc": "2026-11-20T23:30:41.858218+00:00",
+  "pages_by_asset": {
+    "BTC": 7,
+    "ETH": 7,
+    "XRP": 7
+  },
+  "expected_windows_per_asset": 672,
+  "csv_sha256": "60af3932f7883847b184c54cbaa6384b7b27a7031af9e0d394f27f0b4d60e609",
+  "contracts": 1992,
+  "contracts_by_asset": {
+    "BTC": 664,
+    "ETH": 664,
+    "XRP": 664
+  },
+  "result_agreement": {
+    "BTC/ETH": {
+      "matched_windows": 664,
+      "same_result": 567
+    },
+    "BTC/XRP": {
+      "matched_windows": 664,
+      "same_result": 528
+    },
+    "ETH/XRP": {
+      "matched_windows": 664,
+      "same_result": 535
+    }
+  }
+}

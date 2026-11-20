@@ -1,0 +1,57 @@
+{
+  "data": "synthetic",
+  "seed": 7,
+  "snapshots": 180,
+  "starting_cash": 100.0,
+  "requested_contracts": 0.25,
+  "scenarios": {
+    "quoted": {
+      "buy_signals": 68,
+      "filled_orders": 68,
+      "order_fill_rate": 1.0,
+      "filled_contracts": 17.0,
+      "quantity_fill_rate": 1.0,
+      "quoted_cost": 7.767958986097067,
+      "fees": 0.0,
+      "slippage": 0.0,
+      "payouts": 9.0,
+      "ending_cash": 101.23204101390294,
+      "net_simulated_pnl": 1.2320410139029434,
+      "competition_miss_probability": 0.0,
+      "fee_per_contract": 0.0,
+      "fill_model": "optimistic"
+    },
+    "base": {
+      "buy_signals": 68,
+      "filled_orders": 55,
+      "order_fill_rate": 0.8088235294117647,
+      "filled_contracts": 11.75,
+      "quantity_fill_rate": 0.6911764705882353,
+      "quoted_cost": 5.712204116275891,
+      "fees": 0.023500000000000017,
+      "slippage": 0.028561020581378885,
+      "payouts": 6.5,
+      "ending_cash": 100.73573486314272,
+      "net_simulated_pnl": 0.7357348631427243,
+      "competition_miss_probability": 0.5,
+      "fee_per_contract": 0.002,
+      "fill_model": "realistic"
+    },
+    "stress": {
+      "buy_signals": 68,
+      "filled_orders": 55,
+      "order_fill_rate": 0.8088235294117647,
+      "filled_contracts": 11.75,
+      "quantity_fill_rate": 0.6911764705882353,
+      "quoted_cost": 5.712204116275891,
+      "fees": 0.11750000000000008,
+      "slippage": 0.05712204116275895,
+      "payouts": 6.5,
+      "ending_cash": 100.61317384256132,
+      "net_simulated_pnl": 0.6131738425613236,
+      "competition_miss_probability": 0.5,
+      "fee_per_contract": 0.01,
+      "fill_model": "pessimistic"
+    }
+  }
+}
